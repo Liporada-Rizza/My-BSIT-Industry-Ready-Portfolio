@@ -1,0 +1,160 @@
+section {
+  padding: 60px 20px;
+}
+
+#home {
+  min-height: 100vh;
+}
+.profile-img {
+  width: 100%;
+  max-width: 340px;
+  height: auto;
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.15));
+}
+.section-title {
+  font-weight: 700;
+  margin-bottom: 30px;
+}
+
+.info-card {
+  border: none;
+  border-radius: 16px;
+  background-color: #f4f7fb;
+}
+.bg-light-section {
+  background-color: #f4f7fb;
+}
+
+.skill-card {
+  border: none;
+  border-radius: 16px;
+  height: 100%;
+}
+
+.skill {
+  margin-top: 16px;
+}
+
+.progress {
+  height: 8px;
+  margin-top: 6px;
+}
+.project-card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+}
+
+.project-img {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #e5e7eb;
+}
+.case-item {
+  border: none;
+  border-radius: 12px !important;
+  margin-bottom: 12px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.case-item h6 {
+  font-weight: 700;
+  margin-top: 14px;
+  color: #1f4e79;
+}
+.ai-card {
+  border: none;
+  border-radius: 16px;
+  height: 100%;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.ai-card h6 {
+  font-weight: 700;
+  color: #1f4e79;
+}
+.plan-card,
+.goal-card {
+  border: none;
+  border-radius: 16px;
+  height: 100%;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.plan-card h6 {
+  font-weight: 700;
+  color: #1f4e79;
+}
+.cert-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.cert-card {
+  border: none;
+  border-radius: 16px;
+  overflow: hidden;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s;
+}
+
+.cert-card:hover {
+  transform: translateY(-4px);
+}
+.resume-card {
+  border: none;
+  border-radius: 16px;
+  height: 100%;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+}
+
+.resume-preview {
+  width: 100%;
+  height: 600px;
+  border: none;
+  border-radius: 12px;
+}
+.repo-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.repo-card {
+  border: none;
+  border-radius: 16px;
+  height: 100%;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s;
+}
+
+.repo-card:hover {
+  transform: translateY(-4px);
+}
+.contact-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.contact-card {
+  border: none;
+  border-radius: 16px;
+  height: 100%;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  transition: transform 0.2s;
+}
+
+.contact-link .contact-card:hover {
+  transform: translateY(-4px);
+}
+
+.contact-icon {
+  font-size: 2rem;
+}
+.reflection-card {
+  border: none;
+  border-radius: 16px;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.06);
+  line-height: 1.8;
+}
